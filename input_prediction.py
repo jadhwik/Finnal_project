@@ -1,3 +1,8 @@
+//to save the model
+
+gen.save('pix2pix.h5')
+
+
 import tensorflow as tf
 from PIL import Image
 import numpy as np
